@@ -20,6 +20,9 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 import seaborn as sn
 from sklearn.metrics import confusion_matrix , classification_report
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import load_model
 
 
 # ------------- SETTINGS --------------------
@@ -419,8 +422,7 @@ if selected == "Stock Predictions":
 
         x_train, y_train = np.array(x_train), np.array(y_train)
 
-        filename = 'LSTM_model'
-        loaded_model = pickle.load(open(filename, 'rb'))
+        loaded_model = load_model('model.h5')
 
         past_99_days = data_training.tail(99)
         final_df = past_99_days.append(data_testing, ignore_index=True)
