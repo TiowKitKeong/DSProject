@@ -10,3 +10,5 @@ streamlit_lottie==0.0.3
 streamlit_option_menu==0.3.2
 xgboost==1.7.2
 yfinance==0.2.3
+pandas_profiling==3.6.2
+streamlit_pandas_profiling==0.1.3
