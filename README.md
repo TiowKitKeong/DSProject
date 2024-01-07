@@ -11,3 +11,5 @@ Features available:
 - Returns Page: In this page, each of the stocks is adjusted to the same scale so that they can be compared. Returns of multiple stocks can be compared together within specific timeframe.
 - EDA Page: Exploratory Data Analysis statistics are shown in this page. For example, null values analysis, correlation heatmap, histograms and so on.
 - About & Credits: This page explains the purposes of the website and functionality of each page. Users can download the website user manual under the documentation section. Lastly, feedback form is available on this page and the responses will be sent directly to my email. 
+
+Link to the webapps here: https://tiowkitkeong-dsproject-app-31encg.streamlit.app/ 
